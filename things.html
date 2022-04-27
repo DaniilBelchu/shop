@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+ <title>Cat's shop</title>
+ <style type="text/css">
+ .product-wrapper {
+	display: block;
+	width: 100%;
+	float: left;
+	transition: width .2s;
+}
+.product {
+	display: block;
+	border: 1px solid #b5e9a7;
+	border-radius: 3px;
+	position: relative;
+	background: #fff;
+	margin: 0 20px 20px 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+	height: 300px;
+}
+@media only screen and (min-width: 450px) {
+	.product-wrapper {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.product-wrapper {
+		width: 33.333%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.product-wrapper {
+		width: 25%;
+	}
+}
+.product-photo {
+	position: relative;
+	padding-bottom: 100%;
+	overflow: hidden;
+}
+.product-photo img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	transition: transform .4s ease-out;
+}
+.product p {
+	position: relative;
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4em;
+	height: 5.6em;
+	overflow: hidden;
+}
+
+ p1    {color: black;
+      font-size : 50px;
+	  margin: 30px; 8px;
+}
+
+  .button {
+  background-color: #F08080; 
+  border: none; 
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin:8px; 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #7B68EE; /* Фиалетовый */
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #008000; /* Зеленый */
+  color: white;
+}
+</style>
+</head>
+<body>
+<div id="container">
+<p1> <big>Meooow! </p1>
+<a style=button class="button button1" href="home.html">Home</button></a>
+<a style=button class="button button1" href="cats.html">Cats</button></a>
+<a style=button class="button button1" href="things.html">Everything for cats</a></button>
+<a style=button class="button button1" href="info.html">Shop info</a></button>
+<a style=button class="button button1" href="log.html">Log in/Log out</a></button>
+</div>
+<ul class="products clearfix">
+	<li class="product-wrapper">
+		<a href="" class="product"></a>
+	</li>
+	<li class="product-wrapper">
+		<a href="" class="product"></a>
+	</li>
+	<li class="product-wrapper">
+		<a href="" class="product"></a>
+	</li>
+	<li class="product-wrapper">
+		<a href="" class="product"></a>
+	</li>
+	<li class="product-wrapper">
+		<a href="" class="product"></a>
+	</li>
+	<li class="product-wrapper">
+		<a href="" class="product"></a>
+	</li>
+	<li class="product-wrapper">
+		<a href="" class="product"></a>
+	</li>
+	<li class="product-wrapper">
+		<a href="" class="product"></a>
+	</li>
+</ul>
+<div class="product-photo">
+	<img src="Cats.jpg" alt="hey"></div>
+</body>
+</html>
